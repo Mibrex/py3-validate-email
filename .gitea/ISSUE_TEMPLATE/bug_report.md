@@ -3,8 +3,8 @@ name: Bug report
 about: Create a report to help us improve
 title: "[BUG] "
 # Test this when https://github.com/go-gitea/gitea/issues/17877 gets fixed
-labels: ''
-assignees: ''
+# labels: ''
+# assignees: ''
 ---
 <!-- Please don't delete this template or we'll close your issue -->
 
