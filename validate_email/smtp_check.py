@@ -175,7 +175,7 @@ class _SMTPChecker(SMTP):
             return False
         except SMTPResponseException as exc:
             return self._handle_smtpresponseexception(exc=exc)
-        except TLSNegotiationError as exc:
+        except (TLSNegotiationError, ConnectionError) as exc:
             self.__temporary_errors[self._host] = SMTPMessage(
                 command=self.__command, code=-1, text=str(exc),
                 exceptions=exc.args)
