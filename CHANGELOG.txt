@@ -1,3 +1,6 @@
+1.0.5.post2:
+- Final package release on pypi, with changed site hostname.
+
 1.0.5.post1:
 - Final package release on pypi.
 
