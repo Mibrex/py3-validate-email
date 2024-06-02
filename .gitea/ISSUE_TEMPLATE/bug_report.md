@@ -8,7 +8,7 @@ title: "[BUG] "
 ---
 <!-- Please don't delete this template or we'll close your issue -->
 
-- [ ] I have read and understood the [FAQ](https://gitea.ksol.io/karolyi/py3-validate-email/src/branch/master/FAQ.md). I understand that if I delete this, my issue will be closed and ignored without a response.
+- [ ] I have read and understood the [FAQ](https://git.ksol.io/karolyi/py3-validate-email/src/branch/master/FAQ.md). I understand that if I delete this, my issue will be closed and ignored without a response.
 
 **Describe the bug**
 

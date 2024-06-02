@@ -57,7 +57,7 @@ class BuildPyCommand(build_py):
 
 setup(
     name='py3-validate-email',
-    version='1.0.11',
+    version='1.0.12',
     packages=find_packages(exclude=['tests']),
     install_requires=[
         'dnspython~=2.2', 'idna~=3.3', 'filelock~=3.7',
@@ -69,7 +69,7 @@ setup(
     long_description=Path(__file__).parent.joinpath('README.md').read_text(),
     long_description_content_type='text/markdown',
     keywords='email validation verification mx verify',
-    url='http://gitea.ksol.io/karolyi/py3-validate-email',
+    url='http://git.ksol.io/karolyi/py3-validate-email',
     cmdclass=dict(
         build_py=BuildPyCommand, develop=DevelopCommand),  # type: ignore
     license='MIT+NIGGER')

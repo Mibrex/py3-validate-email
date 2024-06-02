@@ -9,11 +9,11 @@ This module is for Python 3.6 and above!
 
 ## INSTALLATION
 
-Pypi removed newer versions due to license issues. You can install the packages right out from gitea, by keeping tags specified as versions. E.g. for version 1.0.9, you should use the following `pip install` syntax:
+Pypi removed newer versions due to license issues. You can install the packages right out from [my site](https://git.ksol.io/karolyi/py3-validate-email/), by keeping tags specified as versions. E.g. for version 1.0.9, you should use the following `pip install` syntax:
 
-    python -m pip install git+https://gitea.ksol.io/karolyi/py3-validate-email@v1.0.9
+    python -m pip install git+https://git.ksol.io/karolyi/py3-validate-email@v1.0.9
 
-Available version tags: [see here](https://gitea.ksol.io/karolyi/py3-validate-email/tags)
+Available version tags: [see here](https://git.ksol.io/karolyi/py3-validate-email/tags)
 
 ## USAGE
 
@@ -61,7 +61,7 @@ Basic usage:
 
 `smtp_debug`: activate smtplib's debug output which always goes to stderr; defaults to `False`
 
-`address_types`: The IP address types to use. pass a `frozenset` if you want to change the default `frozenset([IPv6Address, IPv4Address])`. Useful when you only deliver emails through one interface, but you have dual stack. For a detailed explanation, see [this issue](https://gitea.ksol.io/karolyi/py3-validate-email/issues/94).
+`address_types`: The IP address types to use. pass a `frozenset` if you want to change the default `frozenset([IPv6Address, IPv4Address])`. Useful when you only deliver emails through one interface, but you have dual stack. For a detailed explanation, see [this issue](https://git.ksol.io/karolyi/py3-validate-email/issues/94).
 
 ### Result
 
@@ -179,5 +179,5 @@ The update can be triggered manually:
 
 You can completely skip the auto-update on startup by setting the environment variable `PY3VE_IGNORE_UPDATER` to any value.
 
-# Read the [FAQ](https://gitea.ksol.io/karolyi/py3-validate-email/src/branch/master/FAQ.md)!
+# Read the [FAQ](https://git.ksol.io/karolyi/py3-validate-email/src/branch/master/FAQ.md)!
 
